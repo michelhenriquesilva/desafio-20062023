@@ -2,9 +2,9 @@ import "./styles.css";
 
 export default function Navbar() {
   return (
-    <nav className="">
-      <div>
-        <a>Kenai</a>
+    <nav className="navbar">
+      <div className="navbar__title">
+        <a className="navbar__logo">Kenai</a>
       </div>
       <ul>
         <li>
