@@ -1,11 +1,17 @@
-import { useState } from "react";
-import Navbar from "./Molecules/Navbar/index";
+import Footer from '../src/Molecules/Footer/footer'
+import MainTitle from '../src/Organisms/MainTitle/index'
+
+
+import Navbar  from "./Molecules/Navbar/index";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
+      <MainTitle/>
+      <Footer />
+
     </>
   );
 }
