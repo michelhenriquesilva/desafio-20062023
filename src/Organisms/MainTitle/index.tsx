@@ -20,6 +20,17 @@ export default function Navbar() {
       </p>
 
       <a>Assistir agora</a>
+      <div>
+        <h2> Populares </h2>
+        <div> <p>Shang Chi</p></div>
+        <div> <p>Wisa Dragon</p></div>
+        <div><p>Loki</p></div>
+        <div><p>Spider Man</p></div>
+        <div><p>The Witcher</p></div>
+
+      </div>
+
+      
     </section>
   );
 }
