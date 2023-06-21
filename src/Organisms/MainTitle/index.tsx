@@ -1,11 +1,14 @@
 import "./styles.css";
+import { AiFillStar } from "react-icons/ai";
 
 export default function Navbar() {
   return (
-    <section>
-      <span>Ação fgfg</span>
+    <section className="mainTitle">
+      <span className="mainTitle__category">Ação</span>
 
-      <span>Icon</span>
+      <span>
+        <AiFillStar></AiFillStar>
+      </span>
       <span>Icon</span>
       <span>Icon</span>
       <span>Icon</span>
@@ -22,15 +25,24 @@ export default function Navbar() {
       <a>Assistir agora</a>
       <div>
         <h2> Populares </h2>
-        <div> <p>Shang Chi</p></div>
-        <div> <p>Wisa Dragon</p></div>
-        <div><p>Loki</p></div>
-        <div><p>Spider Man</p></div>
-        <div><p>The Witcher</p></div>
-
+        <div>
+          {" "}
+          <p>Shang Chi</p>
+        </div>
+        <div>
+          {" "}
+          <p>Wisa Dragon</p>
+        </div>
+        <div>
+          <p>Loki</p>
+        </div>
+        <div>
+          <p>Spider Man</p>
+        </div>
+        <div>
+          <p>The Witcher</p>
+        </div>
       </div>
-
-      
     </section>
   );
 }

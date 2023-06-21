@@ -1,4 +1,5 @@
 import "./styles.css";
+import { CiSearch, CiBellOn, CiUser } from "react-icons/ci";
 
 export default function Navbar() {
   return (
@@ -8,7 +9,9 @@ export default function Navbar() {
       </div>
       <ul className="navbar__icons">
         <li>
-          <a>icone1</a>
+          <a>
+            <CiSearch></CiSearch>
+          </a>
         </li>
         <li>
           <a>Inicio</a>
@@ -17,10 +20,14 @@ export default function Navbar() {
           <a>Minha lista</a>
         </li>
         <li>
-          <a>icone2</a>
+          <a>
+            <CiBellOn></CiBellOn>
+          </a>
         </li>
         <li>
-          <a>icone3</a>
+          <a>
+            <CiUser></CiUser>
+          </a>
         </li>
       </ul>
     </nav>
