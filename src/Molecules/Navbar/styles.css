@@ -10,3 +10,25 @@
 .navbar__title {
 
 }
+
+.navbar__logo {
+    font-family: 'Mukta';
+    background-image: linear-gradient(to right, #FFA634, #FF267A);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.navbar__icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar__icons li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}

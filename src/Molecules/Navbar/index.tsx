@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="navbar__title">
         <a className="navbar__logo">Kenai</a>
       </div>
-      <ul>
+      <ul className="navbar__icons">
         <li>
           <a>icone1</a>
         </li>
